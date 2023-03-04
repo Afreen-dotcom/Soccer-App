@@ -1,0 +1,23 @@
+{
+  "name": "soccer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Afreen",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "description": ""
+}
